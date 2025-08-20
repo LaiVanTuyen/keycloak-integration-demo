@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /profile
+spring:
+  application:
+    name: profile-service
+  data:
+    mongodb:
+      uri: mongodb://root:251101@localhost:27017/profile-service?authSource=admin
+idp:
+  url: http://localhost:8180
+  client-id: vti_app
+  client-secret: sLQKeG6ykLm7gwROLPapO3KYudigXzm1
